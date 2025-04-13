@@ -1,0 +1,12 @@
+print("Hello World")
+name1 = input("Which city you grew up in?\n")
+name2 = input("What is the name of your pet?\n")
+print("The name of your band is " + name1 + " " + name2)
+
+values = [0, 1, 2, 3, 4, 5]
+for value in values:
+    if value % 2 == 0:  # This will be False for odd numbers
+        continue  # Skip the odd numbers
+    print(value)
+
+
